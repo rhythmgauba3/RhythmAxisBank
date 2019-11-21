@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*, ::after, ::before {
+  box-sizing: border-box
+}
+body {
+  color: #262626;
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: 'Open Sans', sans-serif !important;
+}
+img {
+  vertical-align: baseline;
+}
+/*
+# Top Most Navigation Bar
+
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: .5rem 1rem
+}
+.navbar > .container, .navbar > .container-fluid {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap
+}
+.navbar-brand:focus, .navbar-brand:hover {
+  text-decoration: none
+}
+.navbar-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none
+}
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0
+}
+.navbar-nav .dropdown-menu {
+  position: static;
+  float: none
+}
+.navbar-text {
+  display: inline-block;
+  padding-top: .5rem;
+  padding-bottom: .5rem
+}
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-align: center;
+  align-items: center
+}--------------------------------*/
+/*
+# Coloured Bar below top most navigation
+--------------------------------*/
+.coloured-bar {
+  padding-top: 50px;
+  background: #AE275F
+}
+.col {
+  background: #AE275F
+}
+/*
+# Second Navigation
+--------------------------------*/
+.top-header-bar {
+  background: #FFFFFF;
+  color: #fff;
+  box-shadow: 5px 1px 50px 0px #BFBCBC /*--------------------------------------------------------------
+# Shadow for under the navigation bar
+--------------------------------------------------------------*/
+}
+/*
+# 2nd Navigation Bar
+--------------------------------*/
+.site-navigation ul {
+  position: fixed;
+  top: 0;
+  left: -320px;
+  z-index: 9999;
+  width: 320px;
+  max-width: calc(100% - 120px);
+  height: 100%;
+  padding: 34px 15px;
+  margin-top: 4;
+  margin-left: 10;
+  background: #fff;
+  list-style: none;
+  overflow-x: scroll;
+  transition: all 0.35s;
+}
+.site-navigation.show ul {
+  left: 0;
+}
+.site-navigation ul li {
+  margin: 15px;
+}
+.site-navigation ul li a {
+  display: block;
+  padding: 14px 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  color: #262626;
+  text-decoration: none;
+  transition: color .35s;
+}
+@media screen and (min-width: 992px) {
+  .site-navigation ul {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: auto;
+    background: transparent;
+  }
+  .site-navigation ul li a {
+    padding: 40px 0 30px;
+  }
+}
+.site-navigation ul li a:hover, .site-navigation ul li.current-menu-item a {
+  border-bottom: 3px solid #AE275F;
+  color: #AE275F;
+}
+/*
+# Search Bar
+--------------------------------*/
+.searchbar {
+  margin-top: -5px;
+  margin-left: 20px;
+}
+/*
+# Header Bar LOGIN Button
+--------------------------------*/
+.login-btn a {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  background: #AE275F;
+}
+.buttonlogin {
+  margin-top: 36px;
+  margin-left: 520px;
+}

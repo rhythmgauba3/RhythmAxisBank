@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*, ::after, ::before {
+  box-sizing: border-box
+}
+body {
+  color: #262626;
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: 'Open Sans', sans-serif !important;
+}
+Services {
+  align-content: center;
+  margin-top: 50px;
+}
+.Used {
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.iconsservice {
+  align-content: center;
+}
+.header-section {
+  margin-top: 10px;
+}
+.coloured-bar {
+  padding-top: 50px;
+  background: #AE275F
+}
+.h-entry {
+  display: block;
+  margin: 20px;
+}
+.ads {
+  margin-top: 50px;
+}
+.meta-text {
+  margin-top: -10px;
+}
+.servicerow {
+  padding-top: 100px;
+}
+.Offers {
+  align-items: center;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+.hamburgerrow {
+  height: 50px;
+  margin-top: 13px;
+  margin-bottom: 20px;
+}
+.main_nav ul li:not(:last-child) {
+  margin-right: 48px;
+}
+.main_nav ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.main_nav ul li.active a, .main_nav ul li a:hover {
+  color: #3B3B3B;
+}
+.header-search-form {
+  width: 100%;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+/*
+# Second Navigation
+--------------------------------*/
+.top-header-bar {
+  background: #FFFFFF;
+  color: #fff;
+  box-shadow: 5px 1px 50px 0px #BFBCBC /*--------------------------------------------------------------
+# Shadow for under the navigation bar
+--------------------------------------------------------------*/
+}
+.fa-search {
+  color: grey;
+}
+.genric-btn {
+  display: inline-block;
+  outline: none;
+  line-height: 40px;
+  padding: 0 30px;
+  font-size: .8em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.genric-btn.radius {
+  border-radius: 3px;
+}
+.genric-btn.primary1 {
+  color: #AE275F;
+  background: #FFFFFF;
+  border: 1px solid #AE275F;
+  ;
+}
+.genric-btn.primary2 {
+  color: #FFFFFF;
+  text-color: red;
+  background-color: #AE275F;
+  border: 1px solid transparent;
+}
+.genric-btn.circle {
+  border-radius: 20px;
+  border-color: #AE275F;
+}
+.primary3 {
+  .genric-btn.primary2 {
+    color: #FFFFFF;
+     !important text-color: #FFFFFF;
+    background: #000000;
+    border: 1px solid transparent;
+  }
+}
+.fa-phone {
+  color: #AE275F;
+}
+.fieldset-content {
+  align
+}
+.logintext {
+	color: black;
+}

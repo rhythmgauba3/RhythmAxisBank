@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>InternetBanking</title>
+<link href="CSS/Globalstyle.css" rel="stylesheet" type="text/css">
+<link href="CSS/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="CSS/M_style.css" rel="stylesheet" type="text/css">
+<link href="CSS/LoginPage.css" rel="stylesheet" type="text/css">
+<link href="CSS/M_LoginTabs1.css" rel="stylesheet" type="text/css">
+<link href="CSS/M_LoginTabs2.css" rel="stylesheet" type="text/css">
+<link href="CSS/M_Loginbox2.css" rel="stylesheet" type="text/css">
+<link href="CSS/M_LoginPageTopBar.css" rel="stylesheet" type="text/css">
+<link href="CSS/M_Loginbox.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!-- End of Burgundy Solid Bar--> 
+<!-- Second Navigation bar -->
+<header class="header-section">
+  <div class="header-top"> <!-- To add the drop shadow effect -->
+    <div class="container">
+      <div class="row">
+        <div class="text-left text-lg-left col-lg-3 col-xl-3"> 
+          <!-- AXIS BANK logo --> 
+          <a href="./index.html" class="site-logo"> <img src="Images/Logo_AxisBank.png" alt="" width= "200px"> </a> </div>
+        <div class="row">
+          <div class="netbankingheading">
+            <div class="col-lg-5 col-xl-12">
+              <p> INTERNET BANKING</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</header>
+<!--Log into internet banking with 2 tabs- personal and corporate  -->
+<div class="limiter">
+  <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+    <div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
+      <form class="login100-form validate-form flex-sb flex-w">
+      <span class="login100-form-title p-b-53"> Log into Internet Banking </span> 
+      <!-- OLD PERSONAL BUTTON  --> 
+      <!--<a href="#" class="btn-google m-b-20"> PERSONAL </a>--> 
+      <!-- PERSONAL BUTTON USING JQUERY  -->
+      
+      <div class="personal">
+        <button class="genric-btn primary2 circle">PERSONAL</button>
+      </div>
+      <a href="#" class="genric-btn primary2 circle"> CORPORATE </a> 
+      <!--Personal banking login -->
+      
+      <div class="w-full text-center p-t-55">
+      <span class="txt2"> First time user? Register </span>
+      <div class="InternetBankingLogin"> <span class="login100-form-title p-b-53"> PERSONAL BANKING </span> </div>
+      
+      <!--Form filling-->
+      <div class="form-bottom">
+      <form role="form" action="" method="post" class="login-form">
+        <div class="form-group">
+        <div class="form-wrapper">
+          <label for="">Username</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-wrapper">
+          <label for="">Password</label>
+          <input type="text" class="form-control">
+        </div>
+        <div>
+        <!-- <label class="sr-only" for="form-username">Username</label>
+          <input type="text" name="form-username" placeholder="Customer ID" class="form-username form-control" id="form-username">
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="form-password">Password</label>
+          <input type="password" name="form-password" placeholder="Password" class="form-password form-control" id="form-password">
+          <div class="w-full text-center p-t-55"> <span class="txt2"> Use virtual keyboard </span> </div>--> 
+        
+        <!--Drop down menu of where to start the next page from-->
+        <div class="startin">
+          <div class="dropdown show"> <a class="btn btn-light dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Start In </a>
+            <div class="dropdown-menu"> <a class="dropdown-item" href="#">Dashboard</a> <a class="dropdown-item" href="#">Bank Account</a> <a class="dropdown-item" href="#">Fund Transfer</a> <a class="dropdown-item" href="#">Bill Payment</a> <a class="dropdown-item" href="#">Shop</a> <a class="dropdown-item" href="#">Investment</a> <a class="dropdown-item" href="#">Request Services</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Seperated Link</a> </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!--Log in button -->
+  
+  <div class="log">
+    <div class="container-login100-form-btn m-t-17"> 
+      <!--OLD CODE FOR BUTTONS--> 
+      <!-- <button class="login100-form-btn"> LOGIN </button>--> 
+      <!--<button class="login-btnlogin2">LOGIN</button>--> 
+      <!--JQUERY CODE-->
+ <!--<a href="FundTransferSteps.html"> <i><button class="genric-btn primary2 circle"> LOGIN</button></i></a>    </div> -->
+	  <div class="logintext">
+		<a href="FundTransferSteps.html">LOGIN</a>
+		</div>
+  </div>
+  <div class="w-full text-center p-t-55"> <a href="#" class="txt2 bo1"> Trouble logging in? </a> </div>
+  </form>
+</div>
+</div>
+</div>
+</body>
+	  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="MyJS/MyLoginJS.js"></script>
+	  </html>
